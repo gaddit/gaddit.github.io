@@ -1,0 +1,121 @@
+/* Design inspiration from James Alexandre */
+/* Powered by Sebastian Kinne */
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container .info {
+    font-family: 'Roboto', sans-serif;
+    line-height: 17px;
+    margin-bottom: 50px;
+}
+
+.container .info h1 {
+    font-size: 17px;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #333
+}
+
+.container .info h2 {
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #999
+}
+
+.container .info h3 {
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #666
+}
+
+@media only screen and (max-width: 480px) {
+    .container .info h1 {
+        font-size: 15px;
+    }
+    .container .info h2 {
+        font-size: 11px;
+    }
+    .container .info h3 {
+        font-size: 10px;
+    }
+}
+
+.container .info h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container .info h3 a:hover {
+    text-decoration: underline;
+}
+
+.container .icons a {
+    text-decoration: none;
+    margin: 6px;
+}
+
+.container .icons .img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.container .sub {
+	height: 30px;
+	padding-top: 20px;
+ }
+
+ .container .sub .img {
+	margin: 6px;
+	max-width: 30px;
+    max-height: 30px;
+}
+
+.container .sub .phone {
+    max-width: 100%;
+    max-height: 30px;
+	text-decoration: none;
+}
+
+.container .sub .email {
+    max-width: 100%;
+    max-height: 30px;
+	text-decoration: none;
+}
+
+.container .sub h4 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1px;
+    position: relative;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #666
+}
+
+@media only screen and (max-width: 480px) {
+    .container .sub h4 {
+        font-size: 10px;
+    }
+}
+
+.container .sub h4 a  {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container .sub a:hover h4 {
+    text-decoration: none;
+}
